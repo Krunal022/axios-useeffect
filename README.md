@@ -1,12 +1,44 @@
-# React + Vite
+# 🚀 Axios + useEffect Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React project showcasing API data fetching with **Axios** and React’s **useEffect** hook.
+Also includes basic **routing** setup and Axios **interceptors** for request/response logging.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Axios instance setup with interceptors
 
-## Expanding the ESLint configuration
+✅ Fetch data on component mount using `useEffect`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Log component mount/unmount (About page)
+
+✅ Simple routing: Home, About, Contact
+
+✅ Clean & minimal UI with TailwindCSS
+
+## 🛠 Tech Stack
+
+* ⚛️ React
+* 🔗 Axios
+* 🌐 React Router
+* 🎨 TailwindCSS
+
+## 🔧 Installation
+
+```bash
+git clone https://github.com/Krunal022/axios-useeffect.git
+cd axios-useeffect
+npm install
+npm start
+```
+### 🖥️ Desktop Preview
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f4634052-007b-407c-9068-1b583114b01d" alt="Desktop Preview" width="600" />
+</p>
+
+## 📸 Quick Preview
+
+> 🏠 **Home Page:** Fetches products from [FakeStoreAPI](https://fakestoreapi.com/)
+> 
+> ℹ️ **About Page:** Logs component lifecycle
+> 
+> 📞 **Contact Page:** Simple static page
